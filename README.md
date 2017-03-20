@@ -26,9 +26,9 @@ version, then build and install the new version of schemagen:
 
     cd $GOPATH/src/github.com/juju/juju
     git checkout 2.1
+    godeps -u dependencies.tsv
     cd $GOPATH/src/github.com/juju/schemagen
     godeps > dependencies.tsv
-    godeps -u dependencies.tsv
     git ci -am 'Updated to 2.1'
     git tag 2.1
     git push --tags
