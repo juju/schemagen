@@ -26,3 +26,7 @@ dep: $(GOPATH)/bin/dep
 
 rebuild-dependencies:
 	$(GOPATH)/bin/dep ensure -v -no-vendor $(dep-update)
+
+install-dependencies:
+	@echo Installing go-1.11 snap
+	@sudo snap install go --channel=1.11/stable --classic
