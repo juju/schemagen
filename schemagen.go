@@ -39,5 +39,4 @@ func main() {
 	s := DescribeFacadeSchemas()
 	b, _ := json.MarshalIndent(s, "", "  ")
 	fmt.Printf("%s\n", b)
-
 }
