@@ -24,9 +24,17 @@
 #   go-tests = true
 #   unused-packages = true
 
+#include:jsonschema
 [[override]]
   revision = "66506e52db051b5e238aa63ec4dad0a790fbc236"
   name = "github.com/bcsaller/jsonschema"
+#include:jsonschema
+
+#include:juju
+[[override]]
+  revision = "c88455697b7da1502fea31a1c65ee17bebfbac1e"
+  name = "github.com/juju/juju"
+#include:juju
 
 [[override]]
   name = "google.golang.org/cloud"
