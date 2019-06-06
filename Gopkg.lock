@@ -375,8 +375,7 @@
   revision = "a0ef8b74ebcffeeff9fc374854deb4af388f037e"
 
 [[projects]]
-  branch = "develop"
-  digest = "1:dd10565373f569809dbcaeb592afa19e72fb0168162030b15d6852e44c077de8"
+  digest = "1:faddb07fe36ccfbff80c454960bab72fb3b7a826e4cd951ef54bb8b9b6beeaf5"
   name = "github.com/juju/juju"
   packages = [
     "agent",
@@ -653,7 +652,7 @@
     "wrench",
   ]
   pruneopts = ""
-  revision = "3e3a2b252cabbf7555dbd470d89db1c1779aa57d"
+  revision = "c88455697b7da1502fea31a1c65ee17bebfbac1e"
 
 [[projects]]
   digest = "1:e460f07bec03866640127c47aae303167e9c79ee426c5fab03c180001eb4a39f"
