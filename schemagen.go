@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/bcsaller/jsonschema"
 	"github.com/juju/juju/apiserver"
-	_ "github.com/juju/juju/apiserver"
-	"github.com/juju/juju/rpc/rpcreflect"
+	"github.com/juju/rpcreflect"
+
+	"github.com/juju/schemagen/jsonschema"
 )
 
 // FacadeSchema describes the jsonschema of the RPC interface for a Facacde
